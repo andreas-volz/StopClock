@@ -1,0 +1,13 @@
+prefix=
+exec_prefix=
+libdir=src
+includedir=include
+
+Name: @PACKAGE@
+Description: A StopClock class to measure times between function calls, Uninstalled
+Version: @VERSION@
+Requires: 
+Conflicts: 
+Libs: ${pcfiledir}/${libdir}/libstopclock.la
+Cflags: -I${pcfiledir}/${includedir}
+
